@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinout-selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.pinout-selector {
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 4.2rem;
+  margin-top: 1.5rem;
+}
+
+/* .pinout-card:nth-child() */
+.pinout-card:first-child {
+    /* margin-left: 4.2rem; */
+}
+
+.pinout-card {
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: solid 2px lightgray;
+    border-radius: 2rem 5rem;
+    box-shadow: 2px 2px 15px lightgray;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.pinout-card:hover {
+    scale: 1.1;
+}
+
+.pinout-card .pinout-thumbnail {
+    width: 20rem;
+    height: 20rem;
+}
+
+.pinout-title {
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+
+}
+
+.copyright {
+    position: fixed;
+    text-align: center;
+    bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
