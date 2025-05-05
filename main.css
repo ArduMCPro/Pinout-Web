@@ -92,18 +92,16 @@ footer {
 
 /* === Description Box === */
 .pinout-description {
-    position: absolute;
-    top: 43rem;
-    width: 90vw;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    height: fit-content;
+    position: relative;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 900px;
+    text-align: left;
+    padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 3px gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 /* === Buttons === */
 .backButton {
     position: absolute;
