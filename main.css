@@ -18,15 +18,17 @@ footer {
 }
 
 .pinout-selector-container {
-    gap: 3rem;
+    justify-content: center;
+    padding: 2rem; /* optional: for breathing room */
 }
 
 .pinout-selector {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 5rem;
-    margin: 1.5rem 0 0 2.1rem;
+    justify-content: center;
+    margin: 0 auto; /* center in container */
+    max-width: 100%; /* allow full width */
 }
 
 .pinout-container {
